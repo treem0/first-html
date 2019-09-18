@@ -11,47 +11,69 @@
                 border: solid 2px black;
                 padding: 15px;
                 margin: 10px;
+                border-radius: 18px;
                 font-size: 35px;
                 font-family: fantasy;
                 display: flex;
                 justify-content: center; 
             }
-
+            .cat {
+                display: flex;
+                justify-content: center; 
+            }
             p {
                 color: blue; 
-                font-size: 14px;   
+                font-size: 14px;
+                display: flex;
+                justify-content: center;    
             }
             a {
                 color: orange;
+                display: flex;
+                justify-content: center; 
             }
             h3 {
                 color:red;
+                display: flex;
+                justify-content: center; 
+            }
+            li {
+                color:black;
+                display: flex;
+                justify-content: center; 
             }
             .fruit-list {
                 color:salmon;
+                display: flex;
+                justify-content: center; 
             }
             .fruits {
                 color: plum;
+                display: flex;
+                justify-content: center; 
             }
             #perfect-header {
                 color: gold;
                 text-decoration: underline;
+                display: flex;
+                justify-content: center; 
             }
             #cute {
                 color: green;
+                display: flex;
+                justify-content: center; 
             }
         </style>
 </head>
 <body>
     <header>
         <h1 class="kitten">Cool Cats Blog</h1>
-        <img src="https://placekitten.com/g/200/300">
+        <img class="cat" src="https://placekitten.com/g/200/300">
     </header>
     <main>
         <article>An article about kittens goes here</article>
         <h2 id="cute"><header>Cute Cat</header></h2>
-        <img src="https://placekitten.com/200/300"> 
-        <lead>Lead</lead>
+        <img class="cat" src="https://placekitten.com/200/300"> 
         <content>
            <h3 id="perfect-header">Hi</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et minus cumque rerum illo sed cum quidem repellendus at provident assumenda maxime porro earum voluptates ipsa pariatur, aperiam ex nisi vitae!</p>
@@ -68,7 +90,6 @@
                 <li class="fruits">Kiwi</li>
            </ul>
         </content> 
-        <aside>Aside</aside>  
     </main>
 
         <footer>Travis Molter &copy;</footer>
