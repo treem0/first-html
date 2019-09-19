@@ -1,69 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-            .kitten {
-                color: pink;
-                border: solid 2px black;
-                padding: 15px;
-                margin: 10px;
-                border-radius: 18px;
-                font-size: 35px;
-                font-family: fantasy;
-                display: flex;
-                justify-content: center; 
-            }
-            .cat {
-                display: flex;
-                justify-content: center; 
-            }
-            p {
-                color: blue; 
-                font-size: 14px;
-                display: flex;
-                justify-content: center;    
-            }
-            a {
-                color: orange;
-                display: flex;
-                justify-content: center; 
-            }
-            h3 {
-                color:red;
-                display: flex;
-                justify-content: center; 
-            }
-            li {
-                color:black;
-                display: flex;
-                justify-content: center; 
-            }
-            .fruit-list {
-                color:salmon;
-                display: flex;
-                justify-content: center; 
-            }
-            .fruits {
-                color: plum;
-                display: flex;
-                justify-content: center; 
-            }
-            #perfect-header {
-                color: gold;
-                text-decoration: underline;
-                display: flex;
-                justify-content: center; 
-            }
-            #cute {
-                color: green;
-                display: flex;
-                justify-content: center; 
-            }
-        </style>
 </head>
 <body>
     <header>
@@ -71,16 +14,17 @@
         <img class="cat" src="https://placekitten.com/g/200/300">
     </header>
     <main>
-        <article>An article about kittens goes here</article>
+        <article class="smarticle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse non, quia eveniet libero quisquam labore aliquam dolorem, exercitationem similique id sunt accusantium cumque molestiae. Nobis eaque ducimus laudantium maiores.</article>
         <h2 id="cute"><header>Cute Cat</header></h2>
         <img class="cat" src="https://placekitten.com/200/300"> 
         <content>
            <h3 id="perfect-header">Hi</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et minus cumque rerum illo sed cum quidem repellendus at provident assumenda maxime porro earum voluptates ipsa pariatur, aperiam ex nisi vitae!</p>
            <h3>Another One</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sint suscipit earum est harum dolores labore iure consequuntur. A minima eligendi ea tenetur laudantium natus impedit tempora rem laborum ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sint suscipit earumest harum dolores labore iure consequuntur. A minima eligendi ea tenetur laudantium natus impedit tempora rem laborum ratione.</p>
            <h3>Third One</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aliquid vitae porro qui delectus consequatur, perferendis natus dolores autem! Laborum ab enim, sequi delectus temporibus possimus dolores adipisci dicta eveniet!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aliquid vitae porro qui delectus consequatur, 
+            perferendis natus dolores autem! Laborum ab enim, sequi delectus temporibus possimus dolores adipisci dicta eveniet!</p>
 
             <h3 class="fruit-list">Fruits</h3>
            <ul>
@@ -90,6 +34,8 @@
                 <li class="fruits">Kiwi</li>
            </ul>
         </content> 
+        <button onclick="showAlert()">Click Me!</button>
+        <input oninput="logHello()">
     </main>
 
         <footer>Travis Molter &copy;</footer>
