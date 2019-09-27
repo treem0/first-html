@@ -1,0 +1,83 @@
+            .container {
+                 display: grid;
+                 max-width: 900px;
+                 position: relative;
+                 margin: auto;
+                 grid-gap: 10px;
+                 grid-template-areas: "header header"
+                                       "nav nav"
+                                        "left right"
+                                        "footer footer";
+                 grid-template-columns: 200px 400px;
+                 grid-template-rows: 150px 200px 600px 200px;
+  }
+            .ttravels {
+                color: pink;
+                border: solid 2px black;
+                padding: 15px;
+                margin: 10px;
+                border-radius: 18px;
+                font-size: 35px;
+                font-family: fantasy;
+                justify-content: center; 
+                background-color: blanchedalmond;
+                grid-area: header;
+            }
+            .footer {
+                grid-area: footer;
+            }
+            nav {
+                background-color: beige;
+                grid-area: nav;
+              }
+            .cat {
+                box-sizing: border-box;
+                justify-content: center; 
+            }
+            p {
+                color: blue; 
+                font-size: 14px;
+                justify-content: center;
+                background-color: aquamarine;    
+            }
+            .left {
+                background-color: dodgerblue;
+                grid-area: left;
+              }
+            a {
+                color: orange;
+                justify-content: center;
+                background-color:cyan; 
+            }
+            h3 {
+                color:red;
+                justify-content: center; 
+            }
+            li {
+                color:black;
+                justify-content: center; 
+                background-color: red;
+            }
+            .intro {
+                justify-content: center; 
+                background-color: blanchedalmond;
+            }
+            .fruit-list {
+                color:salmon;
+                justify-content: center; 
+            }
+            .fruits {
+                color: plum;
+                justify-content: center; 
+            }
+            #perfect-header {
+                color: gold;
+                text-decoration: underline;
+                justify-content: center; 
+            }
+            #cute {
+                color: green;
+                justify-content: center; 
+            }
+            
+      

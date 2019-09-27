@@ -1,71 +1,57 @@
-
-            .kitten {
-                color: pink;
-                border: solid 2px black;
-                box-sizing: border-box;
-                padding: 15px;
-                margin: 10px;
-                border-radius: 18px;
-                font-size: 35px;
-                font-family: fantasy;
-                display: flex;
-                justify-content: center; 
-                background-color: blanchedalmond;
-            }
-            .cat {
-                box-sizing: border-box;
-                display: flex;
-                justify-content: center; 
-            }
-            p {
-                color: blue; 
-                font-size: 14px;
-                display: flex;
-                justify-content: center;
-                background-color: aquamarine;    
-            }
-            a {
-                color: orange;
-                display: flex;
-                justify-content: center;
-                background-color:cyan; 
-            }
-            h3 {
-                color:red;
-                display: flex;
-                justify-content: center; 
-            }
-            li {
-                color:black;
-                display: flex;
-                justify-content: center; 
-                background-color: red;
-            }
-            .smarticle {
-                display: flex;
-                justify-content: center; 
-                background-color: blanchedalmond;
-            }
-            .fruit-list {
-                color:salmon;
-                display: flex;
-                justify-content: center; 
-            }
-            .fruits {
-                color: plum;
-                display: flex;
-                justify-content: center; 
-            }
-            #perfect-header {
-                color: gold;
-                text-decoration: underline;
-                display: flex;
-                justify-content: center; 
-            }
-            #cute {
-                color: green;
-                display: flex;
-                justify-content: center; 
-            }
-            
-      
+.container {
+    display: grid;
+    max-width: 1400px;
+    position: relative;
+    margin: auto;
+    grid-gap: 10px;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "left right"
+                         "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 0.5fr 0.5fr 5fr 0.5fr;
+  }
+  
+  h1, h2 {
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  header {
+    background-color: rgb(20, 56, 92);
+    grid-area: header;
+    font-weight: bold;
+  }
+  
+  nav {
+    background-color: rgb(143, 216, 235);
+    grid-area: nav;
+    align-content: space-between;
+    justify-content: center;
+  }
+  
+  .places {
+    background-color: rgb(20, 56, 92);
+    grid-area: left;
+    justify-content: flex-start;
+  }
+  
+  .photos {
+    background-color: rgb(143, 216, 235);
+    grid-area: right;
+  }
+  
+  footer {
+    background-color: rgb(20, 56, 92);
+    grid-area: footer;
+  }
+  #t-travels {
+    font-family: fantasy;
+  }
+  #where {
+      font-family: fantasy;
+  }
+  #where-list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+  }
